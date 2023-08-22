@@ -1,0 +1,28 @@
+.contacts {
+    background: firebrick;
+
+    h3{
+
+        height: 80px;
+        width: 100%;
+        font-size: 3em;
+        background: green;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    section{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}

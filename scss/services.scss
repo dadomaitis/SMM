@@ -1,0 +1,28 @@
+.services {
+    background: #FFD95A;
+    display: flex;
+    align-items: center;
+
+    .about-me{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2{
+            margin-bottom: 20px;
+        }
+
+        p{
+            width: 80%;
+        }
+    }
+
+    .photo {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}

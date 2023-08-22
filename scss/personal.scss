@@ -1,0 +1,72 @@
+.personal {
+    background: yellowgreen;
+
+    .goal{
+        background: url("https://images.unsplash.com/photo-1594649506224-4525e65b56f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80") ;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{
+            height: 50%;
+            width: 30%;
+            background: yellowgreen;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4em;
+            
+        }
+    }
+
+    .plans{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 80px;
+        gap: 8%;
+
+        .plan{
+            height: 50vh;
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid rgb(181, 78, 9);
+            border-radius: 12px;
+            background: #8d5f045c;
+
+            h3{
+                font-size: 2em;
+                margin: 20px;
+                color: #C07F00;
+            }
+
+            h2{
+                font-size: 3em;
+                margin: 20px;
+                color: rgb(255, 89, 0);
+            }
+
+            p{
+                width: 85%;
+                text-align: justify;
+                color: rgb(91, 82, 82);
+            }
+
+            &:after {
+                content: "";
+                position: relative;
+                height: 50px;
+                width: 250px;
+                background: #C07F00;
+                border: 3px solid rgb(181, 78, 9);
+                border-radius: 12px;
+                bottom: -24px;
+            }
+        }
+    }
+}
