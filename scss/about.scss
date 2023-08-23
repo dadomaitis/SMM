@@ -1,90 +1,28 @@
 .about {
-    background: #FFF7D4;
+    background: #FFD95A;
     display: flex;
     align-items: center;
 
-    .part1 {
-        width: 50%;
-        height: 80vh;
+    .about-me{
+        width: 60%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
 
-        h1 {
-            width: 360px;
-            font-size: 2em;
-            letter-spacing: 0.1em;
-            word-spacing: 0.3em;
-            color: #4C3D3D;
-            margin-left: 50px;
-            margin-top: 100px;
-
-            span {
-                visibility: hidden;
-            }
+        h2{
+            margin-bottom: 20px;
         }
 
-        img {
-            width: 350px;
-            margin: 50px;
+        p{
+            width: 80%;
         }
     }
 
-    .part2 {
-        width: 50%;
-        margin-top: 200px;
-        --s: 130px; /* control the size */
-        display: grid;
-        justify-content: center;
+    .photo {
+        width: 40%;
+        display: flex;
         align-items: center;
+        justify-content: center;
 
-        img {
-            grid-area: 1/1;
-            width: var(--s);
-            aspect-ratio: 1;
-            object-fit: cover;
-            clip-path: polygon(25% 5%, 75% 5%, 100% 50%, 75% 95%, 25% 95%, 0% 50%);
-            transform: translate(var(--_x,0),var(--_y,0)) scale(var(--_t,1));
-            cursor: pointer;
-            filter: grayscale(70%);
-            transition: .2s linear;
-
-            &:hover {
-                filter: grayscale(0);
-                z-index: 1;
-                --_t: 1.2;
-              }
-          }
-
-        img:nth-child(1) {--_x: calc(-70%)}
-        img:nth-child(1) {--_y: calc(-47%)}
-
-        img:nth-child(2) {--_x: calc(8% )}
-        img:nth-child(2) {--_y: calc(0% )}
-
-        img:nth-child(3) {--_x: calc(-70% )}
-        img:nth-child(3) {--_y: calc(47% )}
-
-        img:nth-child(4) {--_x: calc(8% )}
-        img:nth-child(4) {--_y: calc(-94% )}
-
-        img:nth-child(5) {--_x: calc(8% )}
-        img:nth-child(5) {--_y: calc(-188% )}
-
-        img:nth-child(6) {--_x: calc(86% )}
-        img:nth-child(6) {--_y: calc(-47% )}
-
-        img:nth-child(7) {--_x: calc(86% )}
-        img:nth-child(7) {--_y: calc(-141% )}
-
-        img:nth-child(8) {--_x: calc(164% )}
-        img:nth-child(8) {--_y: calc(-94% )}
-        
-        img:nth-child(9) {--_x: calc(164% )}
-        img:nth-child(9) {--_y: calc(-188% )}
-
-        img:nth-child(10) {--_x: calc(164% )}
-        img:nth-child(10) {--_y: calc(0% )}
-      }
+    }
 }
