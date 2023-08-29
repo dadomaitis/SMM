@@ -1,12 +1,11 @@
 .home {
-    z-index: 1;
-    background: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)), url(../images/front\ background.jpg);
+
+    background: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)), url('../images/front\ background.jpg');
     background-size: cover;
     display: flex;
     align-items: center;
 
     .part1 {
-        z-index: 3;
         width: 50%;
         height: 80vh;
         display: flex;
@@ -30,7 +29,6 @@
         }
 
     .part2 {
-        z-index: 3;
         width: 50%;
         margin-top: 200px;
         --s: 130px; /* control the size */
@@ -89,5 +87,5 @@
 }
 
 .home_backg{
-
+    
 }
