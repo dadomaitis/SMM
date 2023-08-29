@@ -1,6 +1,6 @@
 .home {
     z-index: 1;
-    background: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)), url(/app/images/front\ background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)), url(../images/front\ background.jpg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@
             }
 
             h1{
-                background: white;
+                background: none;
                 color: #f9ab19;
                 margin-top: 20px;
                 font-size: 2.5em;
@@ -86,4 +86,8 @@
         img:nth-child(10) {--_x: calc(164% )}
         img:nth-child(10) {--_y: calc(0% )}
       }
+}
+
+.home_backg{
+
 }
