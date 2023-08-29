@@ -1,28 +1,30 @@
 .contacts {
-    background: firebrick;
+    background: rgba(0, 0, 0, 0.844);
 
     h3{
 
         height: 80px;
         width: 100%;
         font-size: 3em;
-        background: green;
+        background: black;
+        color: white;
         text-align: center;
         padding-top: 10px;
     }
 
     section{
-        height: 200px;
+        height: 300px;
         width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
+        gap: 100px;
+        margin-top: 100px;
 
         img {
-            width: 60px;
-            height: 60px;
+            width: 200px;
+            height: 200px;
         }
     }
 }
