@@ -2,7 +2,7 @@ nav {
     line-height: 50px;
     width: 100%;
     min-width: 1400px;
-    background: rgba(255, 255, 255, 0.703);
+    background: rgba(64, 49, 1, 0.703);
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -13,4 +13,14 @@ nav {
         color: $navtextcolor;
         font-weight: bold;
     }
+
+    img{
+        width: 20px;
+    }
+
+    .right{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+    };
 }
