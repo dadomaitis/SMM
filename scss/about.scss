@@ -2,6 +2,7 @@
     background: #ffb319;
     display: flex;
     align-items: center;
+    height: 100vh;
 
     .about-me{
         width: 60%;
@@ -13,7 +14,8 @@
         h2{
             font-weight: 700;
             font-size: 5em;
-            margin-bottom: 100px;
+            margin-top: 10px;
+            margin-bottom: 5px;
         }
 
         p{
@@ -41,6 +43,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-top: 30px;
 
         img{
             width: 450px;
