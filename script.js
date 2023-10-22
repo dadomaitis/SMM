@@ -9,8 +9,9 @@ tools.addEventListener("click", function(){
     navtools.classList.toggle("transformY")
 })
 
-    dropm.addEventListener("click", function(){
-        console.log("Hello world!");
-        dropm.classList.remove("transformY")
-
-    }) 
+    for(var i = 0; i < dropm.length; i++){
+        dropm[i].addEventListener("click", function(){
+            navtools.classList.remove("transformY")
+    
+        })
+    }
