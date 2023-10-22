@@ -33,20 +33,27 @@ nav {
     }
 }
 
+.link:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
 .navtools {
-    width: 10%;
+    background: rgba(64, 49, 1, 0.703);
+    width: 120%;
     height: 30px;
-    line-height: 30px;
+    line-height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
-    margin-left: -8px;
+    margin-left: -10px;
     transform: translateY(-350%);
     transition: 0.3s;
     opacity: 0;
 }
 
 .transformY {
-    transform: translateY(10%);
+    transform: translateY(0%);
     opacity: 1;
 }
