@@ -2,6 +2,7 @@ nav {
     line-height: 50px;
     width: 100%;
     min-width: 1400px;
+    height: 50px;
     background: rgba(64, 49, 1, 0.703);
     display: flex;
     justify-content: space-around;
@@ -22,5 +23,30 @@ nav {
         width: 30%;
         display: flex;
         justify-content: space-around;
-    };
+
+        #tool{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.navtools {
+    width: 10%;
+    height: 30px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: -8px;
+    transform: translateY(-350%);
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.transformY {
+    transform: translateY(10%);
+    opacity: 1;
 }

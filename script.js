@@ -1,18 +1,16 @@
-// "use strict"
+"use strict"
 
-// const images = document.getElementsByClassName("image")
+const tools = document.getElementById("tools")
+const navtools= document.querySelector(".navtools")
+const dropm = document.getElementsByClassName("dropm")
 
-// for(var i = 0; i < images.length; i++){
-//     images[i].addEventListener("click", function(){
-//         this.classList.toggle("active");
+tools.addEventListener("click", function(){
+    
+    navtools.classList.toggle("transformY")
+})
 
-//         // // rmove active class
-//         // for(var image of images) {
-//         //     image.classList.remove("active")
-//         // }
+    dropm.addEventListener("click", function(){
+        console.log("Hello world!");
+        dropm.classList.remove("transformY")
 
-//         // // adds active class to link
-//         // image.classList.remove("content")
-//         // image.classList.toggle("active")
-//     })
-// }
+    }) 
