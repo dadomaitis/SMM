@@ -20,12 +20,20 @@ nav {
         width: 20px;
     }
 
+    .left{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+
     .right{
-        width: 30%;
+        width: 50%;
+        height: 50px;
         display: flex;
         justify-content: space-around;
 
-        #tool{
+        #tools{
+            position: absolute;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -35,52 +43,52 @@ nav {
 }
 
 .link:hover{
-    color: rgb(255, 255, 255);
     cursor: pointer;
+    color: wheat;
 }
 
-.navtools {
+.navtools{
     background: rgba(64, 49, 1, 0.703);
-    width: 120%;
-    height: 30px;
-    line-height: 40px;
+    width: 60px;
+    height: 200px;
+    border-radius: 0 0 30px 30px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    margin-left: -10px;
-    transform: translateY(-350%);
+    transform: translateY(-200px);
     transition: 0.3s;
-    opacity: 0;
-}
-
-.transformY {
-    transform: translateY(0%);
     opacity: 1;
 }
 
 
-@media (max-width: 768px) {
-    nav {
-        height: 150px;
-        width: 100%;
-        font-size: 3em;
-        min-width: 320px;
-    
-    
-        img{
-            width: 50px;
-        }
-    
-        .right{
-            width: 50%;
-    
-        //     #tool{
-        //         display: flex;
-        //         flex-direction: column;
-        //         justify-content: center;
-        //         align-items: center;
-        //     }
-        }
-    }
+.transformY {
+    transform: translateY(50.4px);
+    opacity: 1;
 }
+
+
+// @media (max-width: 768px) {
+//     nav {
+//         height: 150px;
+//         width: 100%;
+//         font-size: 3em;
+//         min-width: 320px;
+    
+    
+//         img{
+//             width: 50px;
+//         }
+    
+//         .right{
+//             width: 50%;
+    
+//         //     #tool{
+//         //         display: flex;
+//         //         flex-direction: column;
+//         //         justify-content: center;
+//         //         align-items: center;
+//         //     }
+//         }
+//     }
+// }
