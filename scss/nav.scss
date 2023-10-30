@@ -6,6 +6,7 @@ nav {
     background: rgba(64, 49, 1, 0.703);
     display: flex;
     justify-content: space-around;
+    align-items: center;
     position: fixed;
     z-index: 999;
 
@@ -56,4 +57,30 @@ nav {
 .transformY {
     transform: translateY(0%);
     opacity: 1;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        height: 150px;
+        width: 100%;
+        font-size: 3em;
+        min-width: 320px;
+    
+    
+        img{
+            width: 50px;
+        }
+    
+        .right{
+            width: 50%;
+    
+        //     #tool{
+        //         display: flex;
+        //         flex-direction: column;
+        //         justify-content: center;
+        //         align-items: center;
+        //     }
+        }
+    }
 }
