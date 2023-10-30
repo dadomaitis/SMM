@@ -24,8 +24,8 @@
 
         .gallery, .videogallery{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            grid-gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-gap: 10px;
 
             img, video{
                 width: 100%;
