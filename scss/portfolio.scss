@@ -24,6 +24,11 @@
         padding: 50px 8%;
         gap: 50px;
 
+        iframe{
+            width: 80%;
+            height: 550px;
+        }
+
         .gallery, .videogallery{
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -32,6 +37,8 @@
             img, video{
                 width: 100%;
             }
+
+            
         }
     }
 }
