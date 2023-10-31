@@ -29,12 +29,12 @@
             line-height: 40px;
         }
         h3{
-            width: 90%;
-            font-family: 'Brittany Signature', sans-serif;
-            color: white;
-            font-size: 3.2em;
-            font-weight: 200;
-            text-align: end;
+            display: flex;
+            justify-content: end;
+            img {
+                width: 40%;
+            }
+            
         }
     }
 
