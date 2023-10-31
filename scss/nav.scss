@@ -17,13 +17,22 @@ nav {
     }
 
     img{
-        width: 20px;
+        width: 30px;
     }
 
     .left{
         width: 50%;
         display: flex;
-        justify-content: space-around;
+        justify-content: start;
+
+        a{
+            height: 30px;
+            margin-left: 200px;
+        }
+        
+        img{
+            align-items: center;
+        }
     }
 
     .right{
