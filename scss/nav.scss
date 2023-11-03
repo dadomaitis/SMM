@@ -68,6 +68,13 @@ nav {
     transition: 0.3s;
     opacity: 0;
 
+    .dropm{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
     a:hover{
         cursor: pointer;
     color: wheat;
