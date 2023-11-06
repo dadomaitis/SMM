@@ -5,6 +5,19 @@
     font-family: 'Rubik', sans-serif;
     
     body::-webkit-scrollbar {
-      display: none;
+      width: 15px;
+    }
+    
+    body::-webkit-scrollbar-track {
+      background: #1d1c1c;
+    }
+  
+    body::-webkit-scrollbar-thumb:hover {
+    background:  #ffd95a6c;
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background: #c080005a;
+      border-radius: 15px;
     }
   }
